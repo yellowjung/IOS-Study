@@ -8,76 +8,45 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Bounty View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOS_Study" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BountyViewController" customModule="IOS_Study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyPics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CF0-BW-Ge9">
-                                <rect key="frame" x="137" y="114" width="116" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="vjp-gY-uBM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₩10000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vry-6l-ejN">
-                                <rect key="frame" x="119" y="653" width="152" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="4i9-Q2-4LM">
-                                <rect key="frame" x="35" y="262" width="320" height="320"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="SaW-sb-hBr"/>
-                                    <constraint firstAttribute="width" constant="320" id="jC8-T3-eVS"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCC-G6-49D">
-                                <rect key="frame" x="145" y="719" width="100" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="3zz-b9-OLv"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="HyY-iA-qoy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Refresh">
-                                    <color key="titleColor" red="1" green="0.46080242370718472" blue="0.15512600866337356" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="Refresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POF-Xw-OW7"/>
-                                </connections>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t8w-EC-AYQ">
+                                <rect key="frame" x="0.0" y="56" width="390" height="745"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="T9F-vU-2jY">
+                                        <rect key="frame" x="0.0" y="28" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T9F-vU-2jY" id="GMM-9e-D5b">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CF0-BW-Ge9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="5NQ-mi-lef"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CF0-BW-Ge9" secondAttribute="trailing" constant="137" id="7f0-Ko-SRk"/>
-                            <constraint firstItem="dCC-G6-49D" firstAttribute="top" secondItem="vry-6l-ejN" secondAttribute="bottom" constant="36" id="KDW-vi-K6r"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dCC-G6-49D" secondAttribute="bottom" constant="41" id="KEh-Km-f1Z"/>
-                            <constraint firstItem="CF0-BW-Ge9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="Mc2-vI-8hZ"/>
-                            <constraint firstItem="vry-6l-ejN" firstAttribute="centerX" secondItem="dCC-G6-49D" secondAttribute="centerX" id="ZY7-jC-aok"/>
-                            <constraint firstItem="dCC-G6-49D" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aKe-sP-lwD"/>
-                            <constraint firstItem="4i9-Q2-4LM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fec-Ox-1as"/>
-                            <constraint firstItem="4i9-Q2-4LM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="218" id="kG4-KY-610"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t8w-EC-AYQ" secondAttribute="bottom" constant="9" id="54o-XE-2uh"/>
+                            <constraint firstItem="t8w-EC-AYQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="P6y-1j-26f"/>
+                            <constraint firstItem="t8w-EC-AYQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="TU8-PB-YRa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t8w-EC-AYQ" secondAttribute="trailing" id="zmg-mb-Vh6"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="priceLabel" destination="vry-6l-ejN" id="HZQ-QI-lfY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-365.21739130434787" y="46.875"/>
+            <point key="canvasLocation" x="-366.15384615384613" y="46.208530805687204"/>
         </scene>
     </scenes>
     <resources>
-        <image name="dog" width="1372" height="2024.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
