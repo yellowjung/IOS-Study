@@ -106,18 +106,48 @@
                                     <action selector="close:" destination="R1p-OV-Fuq" eventType="touchUpInside" id="WHU-Wu-fwO"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V7x-Gg-Rcg">
+                                <rect key="frame" x="50" y="99.999999999999972" width="290" height="414.33333333333326"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V7x-Gg-Rcg" secondAttribute="height" multiplier="7:10" id="fKE-NN-eIU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Luffy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2E-3y-FCd">
+                                <rect key="frame" x="134" y="549" width="122" height="55"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="30000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15i-Ii-be0">
+                                <rect key="frame" x="106" y="612" width="179" height="55"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dNs-OE-Q7x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="U2E-3y-FCd" firstAttribute="top" secondItem="V7x-Gg-Rcg" secondAttribute="bottom" constant="34.666666666666742" id="GUD-gz-BlM"/>
+                            <constraint firstItem="V7x-Gg-Rcg" firstAttribute="leading" secondItem="dNs-OE-Q7x" secondAttribute="leading" constant="50" id="LyE-ut-UVZ"/>
                             <constraint firstItem="dNs-OE-Q7x" firstAttribute="trailing" secondItem="w9G-NU-iyL" secondAttribute="trailing" constant="16" id="N6o-y4-1zY"/>
+                            <constraint firstItem="15i-Ii-be0" firstAttribute="top" secondItem="U2E-3y-FCd" secondAttribute="bottom" constant="30" id="SOb-px-n00"/>
+                            <constraint firstItem="V7x-Gg-Rcg" firstAttribute="centerX" secondItem="dNs-OE-Q7x" secondAttribute="centerX" id="c7O-0K-d7u"/>
+                            <constraint firstItem="15i-Ii-be0" firstAttribute="centerX" secondItem="U2E-3y-FCd" secondAttribute="centerX" id="gHy-jf-Mdt"/>
+                            <constraint firstItem="U2E-3y-FCd" firstAttribute="centerX" secondItem="V7x-Gg-Rcg" secondAttribute="centerX" id="gqO-uP-MYQ"/>
                             <constraint firstItem="w9G-NU-iyL" firstAttribute="top" secondItem="dNs-OE-Q7x" secondAttribute="top" constant="20" id="tyn-mc-Swx"/>
+                            <constraint firstItem="V7x-Gg-Rcg" firstAttribute="top" secondItem="dNs-OE-Q7x" secondAttribute="top" constant="100" id="zPX-nN-uFM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bountyLabel" destination="15i-Ii-be0" id="E4i-sp-A84"/>
+                        <outlet property="imgView" destination="V7x-Gg-Rcg" id="Ux8-RS-QZh"/>
+                        <outlet property="nameLabel" destination="U2E-3y-FCd" id="tKL-zg-IwK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WaO-ch-uFO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="378" y="46"/>
+            <point key="canvasLocation" x="376.92307692307691" y="45.497630331753555"/>
         </scene>
     </scenes>
     <resources>
