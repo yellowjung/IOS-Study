@@ -14,6 +14,7 @@
 		8242DF3925D7EF3800728A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8242DF3725D7EF3800728A00 /* LaunchScreen.storyboard */; };
 		8242DF4425D7EF3800728A00 /* IOS_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF4325D7EF3800728A00 /* IOS_StudyTests.swift */; };
 		8242DF4F25D7EF3800728A00 /* IOS_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF4E25D7EF3800728A00 /* IOS_StudyUITests.swift */; };
+		829BACA225EE6502007806DF /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829BACA125EE6502007806DF /* BountyInfo.swift */; };
 		82BC986725ECC71900A6EB27 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC986625ECC71900A6EB27 /* BountyViewController.swift */; };
 		82BC986C25ECDF1400A6EB27 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BC986B25ECDF1400A6EB27 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		8242DF4A25D7EF3800728A00 /* IOS_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8242DF4E25D7EF3800728A00 /* IOS_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_StudyUITests.swift; sourceTree = "<group>"; };
 		8242DF5025D7EF3800728A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829BACA125EE6502007806DF /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 		82BC986625ECC71900A6EB27 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
 		82BC986B25ECDF1400A6EB27 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 			children = (
 				8242DF2C25D7EF3800728A00 /* AppDelegate.swift */,
 				82BC986625ECC71900A6EB27 /* BountyViewController.swift */,
+				829BACA125EE6502007806DF /* BountyInfo.swift */,
 				8242DF2E25D7EF3800728A00 /* SceneDelegate.swift */,
 				8242DF3225D7EF3800728A00 /* Main.storyboard */,
 				82BC986B25ECDF1400A6EB27 /* DetailViewController.swift */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829BACA225EE6502007806DF /* BountyInfo.swift in Sources */,
 				8242DF2D25D7EF3800728A00 /* AppDelegate.swift in Sources */,
 				82BC986725ECC71900A6EB27 /* BountyViewController.swift in Sources */,
 				8242DF2F25D7EF3800728A00 /* SceneDelegate.swift in Sources */,
