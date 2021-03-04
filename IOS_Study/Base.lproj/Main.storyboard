@@ -27,7 +27,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="AbV-s0-YbD">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GridCell" id="AbV-s0-YbD" customClass="GridCell" customModule="IOS_Study" customModuleProvider="target">
                                         <rect key="frame" x="95" y="0.0" width="200" height="350"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U8y-U7-kay">
@@ -64,6 +64,11 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="200" height="350"/>
+                                        <connections>
+                                            <outlet property="bountyLabel" destination="5aN-Gf-Z0L" id="dR8-G0-4Iq"/>
+                                            <outlet property="imgView" destination="3ac-RT-ooq" id="ZZM-zq-3y8"/>
+                                            <outlet property="nameLabel" destination="SbP-Vo-Bee" id="s8q-Td-Gjt"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
