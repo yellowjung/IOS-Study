@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8242DF2D25D7EF3800728A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF2C25D7EF3800728A00 /* AppDelegate.swift */; };
-		8242DF2F25D7EF3800728A00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF2E25D7EF3800728A00 /* SceneDelegate.swift */; };
-		8242DF3425D7EF3800728A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8242DF3225D7EF3800728A00 /* Main.storyboard */; };
-		8242DF3625D7EF3800728A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8242DF3525D7EF3800728A00 /* Assets.xcassets */; };
-		8242DF3925D7EF3800728A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8242DF3725D7EF3800728A00 /* LaunchScreen.storyboard */; };
-		8242DF4425D7EF3800728A00 /* IOS_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF4325D7EF3800728A00 /* IOS_StudyTests.swift */; };
-		8242DF4F25D7EF3800728A00 /* IOS_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242DF4E25D7EF3800728A00 /* IOS_StudyUITests.swift */; };
+		828ECF7E25F51AB000F94736 /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4825F51AB000F94736 /* TrackCollectionHeaderView.swift */; };
+		828ECF8125F51AB000F94736 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4925F51AB000F94736 /* HomeViewController.swift */; };
+		828ECF8225F51AB000F94736 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4A25F51AB000F94736 /* TrackCollectionViewCell.swift */; };
+		828ECF8325F51AB000F94736 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4C25F51AB000F94736 /* Extension+AVPlayerItem.swift */; };
+		828ECF8425F51AB000F94736 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4D25F51AB000F94736 /* Track.swift */; };
+		828ECF8525F51AB000F94736 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF4E25F51AB000F94736 /* TrackManager.swift */; };
+		828ECF8625F51AB000F94736 /* memories (listen on spotify from 3am ep).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5025F51AB000F94736 /* memories (listen on spotify from 3am ep).mp3 */; };
+		828ECF8725F51AB000F94736 /* im trying to find myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5125F51AB000F94736 /* im trying to find myself.mp3 */; };
+		828ECF8825F51AB000F94736 /* when the leaves start falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5225F51AB000F94736 /* when the leaves start falling.mp3 */; };
+		828ECF8925F51AB000F94736 /* distant moon (spotify apple etc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5325F51AB000F94736 /* distant moon (spotify apple etc).mp3 */; };
+		828ECF8A25F51AB000F94736 /* aruarian dance [lounge version].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5425F51AB000F94736 /* aruarian dance [lounge version].mp3 */; };
+		828ECF8B25F51AB000F94736 /* Bike Rides On The Block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5525F51AB000F94736 /* Bike Rides On The Block.mp3 */; };
+		828ECF8C25F51AB000F94736 /* Letting Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5625F51AB000F94736 /* Letting Go.mp3 */; };
+		828ECF8D25F51AB000F94736 /* valentin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5725F51AB000F94736 /* valentin.mp3 */; };
+		828ECF8E25F51AB000F94736 /* elijah who - hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5825F51AB000F94736 /* elijah who - hello.mp3 */; };
+		828ECF8F25F51AB000F94736 /* Moonlight!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5925F51AB000F94736 /* Moonlight!.mp3 */; };
+		828ECF9025F51AB000F94736 /* Getsomerest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5A25F51AB000F94736 /* Getsomerest.mp3 */; };
+		828ECF9125F51AB000F94736 /* night calls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5B25F51AB000F94736 /* night calls.mp3 */; };
+		828ECF9225F51AB000F94736 /* Ocean ride __ 海の乗り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5C25F51AB000F94736 /* Ocean ride __ 海の乗り.mp3 */; };
+		828ECF9325F51AB000F94736 /* Missing U In The Raining Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5D25F51AB000F94736 /* Missing U In The Raining Day.mp3 */; };
+		828ECF9425F51AB000F94736 /* Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5E25F51AB000F94736 /* Glow.mp3 */; };
+		828ECF9525F51AB000F94736 /* Chamomile Tea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF5F25F51AB000F94736 /* Chamomile Tea.mp3 */; };
+		828ECF9625F51AB000F94736 /* [ asleep ].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6025F51AB000F94736 /* [ asleep ].mp3 */; };
+		828ECF9725F51AB000F94736 /* Sampled in your own sweet way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6125F51AB000F94736 /* Sampled in your own sweet way.mp3 */; };
+		828ECF9825F51AB000F94736 /* always you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6225F51AB000F94736 /* always you.mp3 */; };
+		828ECF9925F51AB000F94736 /* i fell in love with you one night in september..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6325F51AB000F94736 /* i fell in love with you one night in september..mp3 */; };
+		828ECF9A25F51AB000F94736 /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6425F51AB000F94736 /* tranquility.mp3 */; };
+		828ECF9B25F51AB000F94736 /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6525F51AB000F94736 /* Sleepless.mp3 */; };
+		828ECF9C25F51AB000F94736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6625F51AB000F94736 /* Assets.xcassets */; };
+		828ECF9D25F51AB000F94736 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF6825F51AB000F94736 /* DefaultStyle.swift */; };
+		828ECF9E25F51AB000F94736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6925F51AB000F94736 /* LaunchScreen.storyboard */; };
+		828ECF9F25F51AB000F94736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6B25F51AB000F94736 /* Main.storyboard */; };
+		828ECFA025F51AB000F94736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF6D25F51AB000F94736 /* AppDelegate.swift */; };
+		828ECFA125F51AB000F94736 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF6E25F51AB000F94736 /* Info.plist */; };
+		828ECFA225F51AB000F94736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF6F25F51AB000F94736 /* SceneDelegate.swift */; };
+		828ECFA325F51AB000F94736 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828ECF7125F51AB000F94736 /* Player.storyboard */; };
+		828ECFA425F51AB000F94736 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF7225F51AB000F94736 /* PlayerViewController.swift */; };
+		828ECFA525F51AB000F94736 /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ECF7325F51AB000F94736 /* SimplePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +65,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8242DF2925D7EF3800728A00 /* IOS_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8242DF2C25D7EF3800728A00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8242DF2E25D7EF3800728A00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8242DF3325D7EF3800728A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8242DF3525D7EF3800728A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8242DF3825D7EF3800728A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8242DF3A25D7EF3800728A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8242DF3F25D7EF3800728A00 /* IOS_StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_StudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8242DF4325D7EF3800728A00 /* IOS_StudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_StudyTests.swift; sourceTree = "<group>"; };
-		8242DF4525D7EF3800728A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8242DF4A25D7EF3800728A00 /* IOS_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8242DF4E25D7EF3800728A00 /* IOS_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_StudyUITests.swift; sourceTree = "<group>"; };
-		8242DF5025D7EF3800728A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828ECEE225F51A8A00F94736 /* IOS_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = IOS_Study.app; path = "/Users/youngdon/IOS Study/IOS-Study/build/Debug-iphoneos/IOS_Study.app"; sourceTree = "<absolute>"; };
+		828ECF4825F51AB000F94736 /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
+		828ECF4925F51AB000F94736 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		828ECF4A25F51AB000F94736 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		828ECF4C25F51AB000F94736 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		828ECF4D25F51AB000F94736 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		828ECF4E25F51AB000F94736 /* TrackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		828ECF5025F51AB000F94736 /* memories (listen on spotify from 3am ep).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "memories (listen on spotify from 3am ep).mp3"; sourceTree = "<group>"; };
+		828ECF5125F51AB000F94736 /* im trying to find myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "im trying to find myself.mp3"; sourceTree = "<group>"; };
+		828ECF5225F51AB000F94736 /* when the leaves start falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "when the leaves start falling.mp3"; sourceTree = "<group>"; };
+		828ECF5325F51AB000F94736 /* distant moon (spotify apple etc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "distant moon (spotify apple etc).mp3"; sourceTree = "<group>"; };
+		828ECF5425F51AB000F94736 /* aruarian dance [lounge version].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aruarian dance [lounge version].mp3"; sourceTree = "<group>"; };
+		828ECF5525F51AB000F94736 /* Bike Rides On The Block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bike Rides On The Block.mp3"; sourceTree = "<group>"; };
+		828ECF5625F51AB000F94736 /* Letting Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Letting Go.mp3"; sourceTree = "<group>"; };
+		828ECF5725F51AB000F94736 /* valentin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valentin.mp3; sourceTree = "<group>"; };
+		828ECF5825F51AB000F94736 /* elijah who - hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elijah who - hello.mp3"; sourceTree = "<group>"; };
+		828ECF5925F51AB000F94736 /* Moonlight!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight!.mp3"; sourceTree = "<group>"; };
+		828ECF5A25F51AB000F94736 /* Getsomerest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Getsomerest.mp3; sourceTree = "<group>"; };
+		828ECF5B25F51AB000F94736 /* night calls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night calls.mp3"; sourceTree = "<group>"; };
+		828ECF5C25F51AB000F94736 /* Ocean ride __ 海の乗り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean ride __ 海の乗り.mp3"; sourceTree = "<group>"; };
+		828ECF5D25F51AB000F94736 /* Missing U In The Raining Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Missing U In The Raining Day.mp3"; sourceTree = "<group>"; };
+		828ECF5E25F51AB000F94736 /* Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glow.mp3; sourceTree = "<group>"; };
+		828ECF5F25F51AB000F94736 /* Chamomile Tea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chamomile Tea.mp3"; sourceTree = "<group>"; };
+		828ECF6025F51AB000F94736 /* [ asleep ].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[ asleep ].mp3"; sourceTree = "<group>"; };
+		828ECF6125F51AB000F94736 /* Sampled in your own sweet way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sampled in your own sweet way.mp3"; sourceTree = "<group>"; };
+		828ECF6225F51AB000F94736 /* always you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "always you.mp3"; sourceTree = "<group>"; };
+		828ECF6325F51AB000F94736 /* i fell in love with you one night in september..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i fell in love with you one night in september..mp3"; sourceTree = "<group>"; };
+		828ECF6425F51AB000F94736 /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquility.mp3; sourceTree = "<group>"; };
+		828ECF6525F51AB000F94736 /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepless.mp3; sourceTree = "<group>"; };
+		828ECF6625F51AB000F94736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		828ECF6825F51AB000F94736 /* DefaultStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
+		828ECF6A25F51AB000F94736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		828ECF6C25F51AB000F94736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		828ECF6D25F51AB000F94736 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		828ECF6E25F51AB000F94736 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828ECF6F25F51AB000F94736 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		828ECF7125F51AB000F94736 /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		828ECF7225F51AB000F94736 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		828ECF7325F51AB000F94736 /* SimplePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
+		828ECF7525F51AB000F94736 /* IOS_Study.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = IOS_Study.xcodeproj; sourceTree = "<group>"; };
+		828ECF7F25F51AB000F94736 /* IOS_StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IOS_StudyTests.xctest; path = "/Users/youngdon/IOS Study/IOS-Study/build/Debug-iphoneos/IOS_StudyTests.xctest"; sourceTree = "<absolute>"; };
+		828ECF8025F51AB000F94736 /* IOS_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IOS_StudyUITests.xctest; path = "/Users/youngdon/IOS Study/IOS-Study/build/Debug-iphoneos/IOS_StudyUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +137,107 @@
 		8242DF2025D7EF3800728A00 = {
 			isa = PBXGroup;
 			children = (
-				8242DF2B25D7EF3800728A00 /* IOS_Study */,
-				8242DF4225D7EF3800728A00 /* IOS_StudyTests */,
-				8242DF4D25D7EF3800728A00 /* IOS_StudyUITests */,
-				8242DF2A25D7EF3800728A00 /* Products */,
+				828ECF4525F51AB000F94736 /* IOS-Study */,
 			);
 			sourceTree = "<group>";
 		};
-		8242DF2A25D7EF3800728A00 /* Products */ = {
+		828ECF4525F51AB000F94736 /* IOS-Study */ = {
 			isa = PBXGroup;
 			children = (
-				8242DF2925D7EF3800728A00 /* IOS_Study.app */,
-				8242DF3F25D7EF3800728A00 /* IOS_StudyTests.xctest */,
-				8242DF4A25D7EF3800728A00 /* IOS_StudyUITests.xctest */,
+				828ECF4625F51AB000F94736 /* IOS_Study */,
+				828ECF7525F51AB000F94736 /* IOS_Study.xcodeproj */,
 			);
-			name = Products;
+			name = "IOS-Study";
 			sourceTree = "<group>";
 		};
-		8242DF2B25D7EF3800728A00 /* IOS_Study */ = {
+		828ECF4625F51AB000F94736 /* IOS_Study */ = {
 			isa = PBXGroup;
 			children = (
-				8242DF2C25D7EF3800728A00 /* AppDelegate.swift */,
-				8242DF2E25D7EF3800728A00 /* SceneDelegate.swift */,
-				8242DF3225D7EF3800728A00 /* Main.storyboard */,
-				8242DF3525D7EF3800728A00 /* Assets.xcassets */,
-				8242DF3725D7EF3800728A00 /* LaunchScreen.storyboard */,
-				8242DF3A25D7EF3800728A00 /* Info.plist */,
+				828ECF4725F51AB000F94736 /* Home */,
+				828ECF4B25F51AB000F94736 /* Track */,
+				828ECF4F25F51AB000F94736 /* Resources */,
+				828ECF6625F51AB000F94736 /* Assets.xcassets */,
+				828ECF6725F51AB000F94736 /* Style */,
+				828ECF6925F51AB000F94736 /* LaunchScreen.storyboard */,
+				828ECF6D25F51AB000F94736 /* AppDelegate.swift */,
+				828ECF6E25F51AB000F94736 /* Info.plist */,
+				828ECF6F25F51AB000F94736 /* SceneDelegate.swift */,
+				828ECF7025F51AB000F94736 /* Player */,
 			);
 			path = IOS_Study;
 			sourceTree = "<group>";
 		};
-		8242DF4225D7EF3800728A00 /* IOS_StudyTests */ = {
+		828ECF4725F51AB000F94736 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8242DF4325D7EF3800728A00 /* IOS_StudyTests.swift */,
-				8242DF4525D7EF3800728A00 /* Info.plist */,
+				828ECF6B25F51AB000F94736 /* Main.storyboard */,
+				828ECF4825F51AB000F94736 /* TrackCollectionHeaderView.swift */,
+				828ECF4925F51AB000F94736 /* HomeViewController.swift */,
+				828ECF4A25F51AB000F94736 /* TrackCollectionViewCell.swift */,
 			);
-			path = IOS_StudyTests;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		8242DF4D25D7EF3800728A00 /* IOS_StudyUITests */ = {
+		828ECF4B25F51AB000F94736 /* Track */ = {
 			isa = PBXGroup;
 			children = (
-				8242DF4E25D7EF3800728A00 /* IOS_StudyUITests.swift */,
-				8242DF5025D7EF3800728A00 /* Info.plist */,
+				828ECF4C25F51AB000F94736 /* Extension+AVPlayerItem.swift */,
+				828ECF4D25F51AB000F94736 /* Track.swift */,
+				828ECF4E25F51AB000F94736 /* TrackManager.swift */,
 			);
-			path = IOS_StudyUITests;
+			path = Track;
+			sourceTree = "<group>";
+		};
+		828ECF4F25F51AB000F94736 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				828ECF5025F51AB000F94736 /* memories (listen on spotify from 3am ep).mp3 */,
+				828ECF5125F51AB000F94736 /* im trying to find myself.mp3 */,
+				828ECF5225F51AB000F94736 /* when the leaves start falling.mp3 */,
+				828ECF5325F51AB000F94736 /* distant moon (spotify apple etc).mp3 */,
+				828ECF5425F51AB000F94736 /* aruarian dance [lounge version].mp3 */,
+				828ECF5525F51AB000F94736 /* Bike Rides On The Block.mp3 */,
+				828ECF5625F51AB000F94736 /* Letting Go.mp3 */,
+				828ECF5725F51AB000F94736 /* valentin.mp3 */,
+				828ECF5825F51AB000F94736 /* elijah who - hello.mp3 */,
+				828ECF5925F51AB000F94736 /* Moonlight!.mp3 */,
+				828ECF5A25F51AB000F94736 /* Getsomerest.mp3 */,
+				828ECF5B25F51AB000F94736 /* night calls.mp3 */,
+				828ECF5C25F51AB000F94736 /* Ocean ride __ 海の乗り.mp3 */,
+				828ECF5D25F51AB000F94736 /* Missing U In The Raining Day.mp3 */,
+				828ECF5E25F51AB000F94736 /* Glow.mp3 */,
+				828ECF5F25F51AB000F94736 /* Chamomile Tea.mp3 */,
+				828ECF6025F51AB000F94736 /* [ asleep ].mp3 */,
+				828ECF6125F51AB000F94736 /* Sampled in your own sweet way.mp3 */,
+				828ECF6225F51AB000F94736 /* always you.mp3 */,
+				828ECF6325F51AB000F94736 /* i fell in love with you one night in september..mp3 */,
+				828ECF6425F51AB000F94736 /* tranquility.mp3 */,
+				828ECF6525F51AB000F94736 /* Sleepless.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		828ECF6725F51AB000F94736 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				828ECF6825F51AB000F94736 /* DefaultStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		828ECF7025F51AB000F94736 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				828ECF7125F51AB000F94736 /* Player.storyboard */,
+				828ECF7225F51AB000F94736 /* PlayerViewController.swift */,
+				828ECF7325F51AB000F94736 /* SimplePlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		828ECF7625F51AB000F94736 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +257,7 @@
 			);
 			name = IOS_Study;
 			productName = IOS_Study;
-			productReference = 8242DF2925D7EF3800728A00 /* IOS_Study.app */;
+			productReference = 828ECEE225F51A8A00F94736 /* IOS_Study.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8242DF3E25D7EF3800728A00 /* IOS_StudyTests */ = {
@@ -160,7 +275,7 @@
 			);
 			name = IOS_StudyTests;
 			productName = IOS_StudyTests;
-			productReference = 8242DF3F25D7EF3800728A00 /* IOS_StudyTests.xctest */;
+			productReference = 828ECF7F25F51AB000F94736 /* IOS_StudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8242DF4925D7EF3800728A00 /* IOS_StudyUITests */ = {
@@ -178,7 +293,7 @@
 			);
 			name = IOS_StudyUITests;
 			productName = IOS_StudyUITests;
-			productReference = 8242DF4A25D7EF3800728A00 /* IOS_StudyUITests.xctest */;
+			productReference = 828ECF8025F51AB000F94736 /* IOS_StudyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,6 +307,7 @@
 				TargetAttributes = {
 					8242DF2825D7EF3800728A00 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					8242DF3E25D7EF3800728A00 = {
 						CreatedOnToolsVersion = 12.4;
@@ -212,8 +328,14 @@
 				Base,
 			);
 			mainGroup = 8242DF2025D7EF3800728A00;
-			productRefGroup = 8242DF2A25D7EF3800728A00 /* Products */;
+			productRefGroup = 8242DF2025D7EF3800728A00;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 828ECF7625F51AB000F94736 /* Products */;
+					ProjectRef = 828ECF7525F51AB000F94736 /* IOS_Study.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8242DF2825D7EF3800728A00 /* IOS_Study */,
@@ -228,9 +350,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242DF3925D7EF3800728A00 /* LaunchScreen.storyboard in Resources */,
-				8242DF3625D7EF3800728A00 /* Assets.xcassets in Resources */,
-				8242DF3425D7EF3800728A00 /* Main.storyboard in Resources */,
+				828ECF8B25F51AB000F94736 /* Bike Rides On The Block.mp3 in Resources */,
+				828ECF9F25F51AB000F94736 /* Main.storyboard in Resources */,
+				828ECF8E25F51AB000F94736 /* elijah who - hello.mp3 in Resources */,
+				828ECF9725F51AB000F94736 /* Sampled in your own sweet way.mp3 in Resources */,
+				828ECF9925F51AB000F94736 /* i fell in love with you one night in september..mp3 in Resources */,
+				828ECF9C25F51AB000F94736 /* Assets.xcassets in Resources */,
+				828ECF9125F51AB000F94736 /* night calls.mp3 in Resources */,
+				828ECF9625F51AB000F94736 /* [ asleep ].mp3 in Resources */,
+				828ECF8F25F51AB000F94736 /* Moonlight!.mp3 in Resources */,
+				828ECF8C25F51AB000F94736 /* Letting Go.mp3 in Resources */,
+				828ECF9E25F51AB000F94736 /* LaunchScreen.storyboard in Resources */,
+				828ECF8625F51AB000F94736 /* memories (listen on spotify from 3am ep).mp3 in Resources */,
+				828ECFA125F51AB000F94736 /* Info.plist in Resources */,
+				828ECF9B25F51AB000F94736 /* Sleepless.mp3 in Resources */,
+				828ECF8D25F51AB000F94736 /* valentin.mp3 in Resources */,
+				828ECF8A25F51AB000F94736 /* aruarian dance [lounge version].mp3 in Resources */,
+				828ECF9525F51AB000F94736 /* Chamomile Tea.mp3 in Resources */,
+				828ECF8825F51AB000F94736 /* when the leaves start falling.mp3 in Resources */,
+				828ECF8725F51AB000F94736 /* im trying to find myself.mp3 in Resources */,
+				828ECF9825F51AB000F94736 /* always you.mp3 in Resources */,
+				828ECFA325F51AB000F94736 /* Player.storyboard in Resources */,
+				828ECF9325F51AB000F94736 /* Missing U In The Raining Day.mp3 in Resources */,
+				828ECF9025F51AB000F94736 /* Getsomerest.mp3 in Resources */,
+				828ECF9A25F51AB000F94736 /* tranquility.mp3 in Resources */,
+				828ECF9425F51AB000F94736 /* Glow.mp3 in Resources */,
+				828ECF8925F51AB000F94736 /* distant moon (spotify apple etc).mp3 in Resources */,
+				828ECF9225F51AB000F94736 /* Ocean ride __ 海の乗り.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +401,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242DF2D25D7EF3800728A00 /* AppDelegate.swift in Sources */,
-				8242DF2F25D7EF3800728A00 /* SceneDelegate.swift in Sources */,
+				828ECFA525F51AB000F94736 /* SimplePlayer.swift in Sources */,
+				828ECFA025F51AB000F94736 /* AppDelegate.swift in Sources */,
+				828ECF7E25F51AB000F94736 /* TrackCollectionHeaderView.swift in Sources */,
+				828ECFA225F51AB000F94736 /* SceneDelegate.swift in Sources */,
+				828ECF9D25F51AB000F94736 /* DefaultStyle.swift in Sources */,
+				828ECF8525F51AB000F94736 /* TrackManager.swift in Sources */,
+				828ECF8425F51AB000F94736 /* Track.swift in Sources */,
+				828ECF8225F51AB000F94736 /* TrackCollectionViewCell.swift in Sources */,
+				828ECF8325F51AB000F94736 /* Extension+AVPlayerItem.swift in Sources */,
+				828ECF8125F51AB000F94736 /* HomeViewController.swift in Sources */,
+				828ECFA425F51AB000F94736 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242DF4425D7EF3800728A00 /* IOS_StudyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8242DF4F25D7EF3800728A00 /* IOS_StudyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,20 +445,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8242DF3225D7EF3800728A00 /* Main.storyboard */ = {
+		828ECF6925F51AB000F94736 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8242DF3325D7EF3800728A00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8242DF3725D7EF3800728A00 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8242DF3825D7EF3800728A00 /* Base */,
+				828ECF6A25F51AB000F94736 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		828ECF6B25F51AB000F94736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828ECF6C25F51AB000F94736 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AA7QV35LC;
 				INFOPLIST_FILE = IOS_Study/Info.plist;
@@ -441,6 +595,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ioststudy.IOS-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOS_Study-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AA7QV35LC;
 				INFOPLIST_FILE = IOS_Study/Info.plist;
@@ -460,6 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ioststudy.IOS-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOS_Study-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
