@@ -28,7 +28,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollecionViewCell" id="1Jc-k9-zCw" customClass="TrackCollecionViewCell" customModule="AppleMusicStApp" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollectionViewCell" id="1Jc-k9-zCw" customClass="TrackCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zDH-r1-B5B">
@@ -66,15 +66,15 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <connections>
-                                            <outlet property="trackArtist" destination="pxA-zU-P0N" id="aYH-oy-9I4"/>
-                                            <outlet property="trackThumbnail" destination="Cb9-qH-0iQ" id="fwr-hf-Jw9"/>
-                                            <outlet property="trackTitle" destination="VrL-Pv-GA6" id="zRj-lt-CjH"/>
+                                            <outlet property="trackArtist" destination="pxA-zU-P0N" id="lsM-X0-QLr"/>
+                                            <outlet property="trackThumbnail" destination="Cb9-qH-0iQ" id="RA2-uo-W7j"/>
+                                            <outlet property="trackTitle" destination="VrL-Pv-GA6" id="Dmh-3B-utW"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ZHE-CW-0P1"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="c99-R3-94m"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="oE9-UV-yhp"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="EMD-XX-6za"/>
                                 </connections>
                             </collectionView>
                         </subviews>

@@ -21,13 +21,17 @@ extension HomeViewController: UICollectionViewDataSource {
     // 몇개 표시 할까?
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // TODO: 트랙매니저에서 트랙갯수 가져오기
-        return 0
+        return 10
     }
     
     // 셀 어떻게 표시 할까?
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // TODO: 셀 구성하기
-        return UICollectionViewCell()
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TrackCollectionViewCell", for: indexPath) as? TrackCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        
+        return cell
     }
     
     // 헤더뷰 어떻게 표시할까?
@@ -54,6 +58,6 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         // 20 - card(width) - 20 - card(width) - 20
         // TODO: 셀사이즈 구하기
-        return CGSize.zero
+        return CGSize(width: 180, height: 240)
     }
 }
