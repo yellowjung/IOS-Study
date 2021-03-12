@@ -66,6 +66,6 @@ class TrackManager {
 
     // TODO: 오늘의 트랙 랜덤으로 선책
     func loadOtherTodaysTrack() {
-        self.todaysTrack = self.tracks.randomElement()	
+        self.todaysTrack = self.tracks.randomElement()
     }
 }
